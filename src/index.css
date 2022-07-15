@@ -1,0 +1,121 @@
+/* @link https://utopia.fyi/type/calculator?c=320,21,1.2,1140,24,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+
+:root {
+  --step--2: clamp(0.91rem, calc(0.89rem + 0.10vw), 0.96rem);
+  --step--1: clamp(1.09rem, calc(1.05rem + 0.21vw), 1.20rem);
+  --step-0: clamp(1.31rem, calc(1.24rem + 0.37vw), 1.50rem);
+  --step-1: clamp(1.58rem, calc(1.46rem + 0.59vw), 1.88rem);
+  --step-2: clamp(1.89rem, calc(1.71rem + 0.89vw), 2.34rem);
+  --step-3: clamp(2.27rem, calc(2.01rem + 1.29vw), 2.93rem);
+  --step-4: clamp(2.72rem, calc(2.36rem + 1.83vw), 3.66rem);
+  --step-5: clamp(3.27rem, calc(2.75rem + 2.56vw), 4.58rem);
+
+  --light:#eee;
+  --medium:#c84b31;
+  --dark:#21242B;
+  --darkness:#191919;
+}
+
+html{
+  font-size:16px;
+  font-family:'Open Sans',sans-serif;
+  box-sizing:border-box;
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+background-color:var(--darkness);
+
+}
+
+img{
+  width:100%;
+  height:auto;
+}
+
+@keyframes staggeredLeft{
+  0%{right:50px; opacity:0}
+  100%{right:0px; opacity:1}
+}
+
+@keyframes staggeredUp{
+  0%{bottom:50px; opacity:0}
+  100%{bottom:1rem; opacity:1}
+}
+
+@keyframes colorChange{
+  0%{filter:grayscale(1)}
+  100%{filter:grayscale(0)}
+}
+
+@keyframes FadeOut{
+  0%{opacity:1}
+  100%{opacity:0}
+}
+
+.loading{
+  position: fixed;
+  z-index: 2;
+  background-color:#111519;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  animation: FadeOut .4s 1s ease both ;
+  pointer-events:none;
+}
+
+
+.lds-ring {
+    display: inline-block;
+      position: relative;
+        width: 80px;
+          height: 80px;
+
+}
+.lds-ring div {
+    box-sizing: border-box;
+      display: block;
+        position: absolute;
+          width: 64px;
+            height: 64px;
+              margin: 8px;
+                border: 8px solid #fff;
+                  border-radius: 50%;
+                    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+                      border-color: #fff transparent transparent transparent;
+
+}
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+
+}
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+
+}
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+
+}
+@keyframes lds-ring {
+  0% {
+        transform: rotate(0deg);
+
+  }
+  100% {
+        transform: rotate(360deg);
+
+  }
+
+}
+
+
+
+
+
+
