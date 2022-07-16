@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/space-company/static/css/main.b5d1c362.css",
+    "main.css": "/space-company/static/css/main.6e64e30c.css",
     "main.js": "/space-company/static/js/main.26fa413b.js",
     "static/js/787.a7d86d8a.chunk.js": "/space-company/static/js/787.a7d86d8a.chunk.js",
     "index.html": "/space-company/index.html",
-    "main.b5d1c362.css.map": "/space-company/static/css/main.b5d1c362.css.map",
+    "main.6e64e30c.css.map": "/space-company/static/css/main.6e64e30c.css.map",
     "main.26fa413b.js.map": "/space-company/static/js/main.26fa413b.js.map",
     "787.a7d86d8a.chunk.js.map": "/space-company/static/js/787.a7d86d8a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5d1c362.css",
+    "static/css/main.6e64e30c.css",
     "static/js/main.26fa413b.js"
   ]
 }
