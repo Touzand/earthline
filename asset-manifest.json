@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/landingpage-space-company/static/css/main.b5d1c362.css",
+    "main.js": "/landingpage-space-company/static/js/main.a2619d52.js",
+    "static/js/787.a7d86d8a.chunk.js": "/landingpage-space-company/static/js/787.a7d86d8a.chunk.js",
+    "index.html": "/landingpage-space-company/index.html",
+    "main.b5d1c362.css.map": "/landingpage-space-company/static/css/main.b5d1c362.css.map",
+    "main.a2619d52.js.map": "/landingpage-space-company/static/js/main.a2619d52.js.map",
+    "787.a7d86d8a.chunk.js.map": "/landingpage-space-company/static/js/787.a7d86d8a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5d1c362.css",
+    "static/js/main.a2619d52.js"
+  ]
+}
