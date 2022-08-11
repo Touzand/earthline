@@ -1,7 +1,7 @@
 {
   "name": "landingpage-demo-2",
   "version": "0.1.0",
-  "homepage":"space-company",
+  "homepage":"earthline",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
