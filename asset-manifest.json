@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/space-company/static/css/main.6e64e30c.css",
-    "main.js": "/space-company/static/js/main.26fa413b.js",
-    "static/js/787.a7d86d8a.chunk.js": "/space-company/static/js/787.a7d86d8a.chunk.js",
-    "index.html": "/space-company/index.html",
-    "main.6e64e30c.css.map": "/space-company/static/css/main.6e64e30c.css.map",
-    "main.26fa413b.js.map": "/space-company/static/js/main.26fa413b.js.map",
-    "787.a7d86d8a.chunk.js.map": "/space-company/static/js/787.a7d86d8a.chunk.js.map"
+    "main.css": "/earthline/static/css/main.6e64e30c.css",
+    "main.js": "/earthline/static/js/main.7b11ed26.js",
+    "static/js/787.a7d86d8a.chunk.js": "/earthline/static/js/787.a7d86d8a.chunk.js",
+    "index.html": "/earthline/index.html",
+    "main.6e64e30c.css.map": "/earthline/static/css/main.6e64e30c.css.map",
+    "main.7b11ed26.js.map": "/earthline/static/js/main.7b11ed26.js.map",
+    "787.a7d86d8a.chunk.js.map": "/earthline/static/js/787.a7d86d8a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e64e30c.css",
-    "static/js/main.26fa413b.js"
+    "static/js/main.7b11ed26.js"
   ]
 }
